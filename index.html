@@ -3,14 +3,205 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Urban Tech</title>
     <!-- bootstrap link  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <!-- custom css link  -->
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <header>
+      <!-- navbar start here  -->
 
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container py-2">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand fw-bold" href="#">Urban Tech</a>
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item px-3">
+                <a class="nav-link text-muted" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link  text-muted" href="#">Courses</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link  text-muted" href="#">Deals</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link  text-muted" href="#">Success</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link  text-muted" href="#">About</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link text-muted" href="#">Register</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="btn btn-outline-info px-4" type="submit">Register</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- navbar start here  -->
+
+
+      <!-- slider start hera -->
+
+      <section class="container">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="position-relative">
+                <div class="position-absolute bg-dark opacity-75 top-0 w-100 h-100 "></div>
+                <img src="images/cover/cover-1.png" class=" img-fluid" alt="...">
+                <div class="carousel-caption position-absolute top-0 w-50 h-100 m-auto d-flex flex-column    align-items-center justify-content-center ">
+                  <h2 class="fw-bold fs-1">Get Started Digital Learning.</h2>
+                  <p>Some representative placeholder content for the first slide.</p>
+                  <a class="btn btn-info text-white px-3 fw-semibold" href="">Get Started</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="position-relative">
+                <div class="position-absolute bg-dark opacity-75 top-0 w-100 h-100 "></div>
+                <img src="images/cover/cover-2.jpg" class=" h-100 img-fluid" alt="...">
+                <div class="carousel-caption position-absolute top-0 w-50 h-100 m-auto d-flex flex-column       align-items-center justify-content-center ">
+                  <h2 class="fw-bold fs-1">Find The Best Courses.</h2>
+                  <p>Some representative placeholder content for the first slide.</p>
+                  <a class="btn btn-info text-white px-3 fw-semibold" href="">Get Started</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="position-relative">
+                <div class="position-absolute bg-dark opacity-75 top-0 w-100 h-100 "></div>
+                <img src="images/cover/cover-3.jpg" class=" img-fluid" alt="...">
+                <div class="carousel-caption position-absolute top-0 w-50 h-100 m-auto d-flex flex-column align-items-center justify-content-center ">
+                  <h2 class="fw-bold fs-1">Learn That You Like Most.</h2>
+                  <p>Some representative placeholder content for the first slide.</p>
+                  <a class="btn btn-info text-white px-3 fw-semibold" href="">Get Started</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- slider start hera -->
+    </header>
+
+    <main>
+      <section class="course-section py-5">
+        <h2 class="fw-bold text-center">Discover Our Popular Courses</h2>
+        <p class="text-center">Learn with us over 20 courses</p>
+        <div class="container mt-5">
+          <div class="row g-3">
+            <div class="col-lg-6">
+              <div class="card">
+                <div class="row g-3">
+                  <div class="col-md-4">
+                    <img class="img-fluid w-100" src="images/course/course-1.png" alt="">
+                  </div>
+                  <div class="col-md-8">
+                    <h4>Fundamental Of UI/UX Design</h4>
+                    <p>User interface (UI) design is about making the product look good.</p>
+                    <h5 class="text-info">Price: 20$</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card">
+                <div class="row g-2">
+                  <div class="col-md-4">
+                    <img class="img-fluid w-100" src="images/course/course-2.png" alt="">
+                  </div>
+                  <div class="col-md-8">
+                    <h4>Javascript Basic to advanced</h4>
+                    <p>JavaScript is a scripting or programming language that allows you to implement complex features on web pages.</p>
+                    <h5 class="text-info">Price: 20$</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card">
+                <div class="row g-2">
+                  <div class="col-md-4">
+                    <img class="img-fluid w-100" src="images/course/course-3.png" alt="">
+                  </div>
+                  <div class="col-md-8">
+                    <h4>Fullstack Web Development</h4>
+                    <p>Web development is the work involved in developing a website for the Internet or an intranet.</p>
+                    <h5 class="text-info">Price: 20$</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card">
+                <div class="row g-2">
+                  <div class="col-md-4">
+                    <img class="img-fluid w-100" src="images/course/course-4.png" alt="">
+                  </div>
+                  <div class="col-md-8">
+                    <h4>Digital Marketing</h4>
+                    <p>Digital marketing, also called online marketing, is the promotion of brands to connect with potential customers using the internet and other forms of digital communication.</p>
+                    <h5 class="text-info">Price: 20$</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card">
+                <div class="row g-2">
+                  <div class="col-md-4">
+                    <img class="img-fluid w-100" src="images/course/course-5.png" alt="">
+                  </div>
+                  <div class="col-md-8">
+                    <h4>Photography Basic Rules</h4>
+                    <p>Digital photography is the process of using electronic and computing appliances to capture, create, edit and share digital images/photographs.</p>
+                    <h5 class="text-info">Price: 20$</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card">
+                <div class="row g-2">
+                  <div class="col-md-4">
+                    <img class="img-fluid w-100" src="images/course/course-6.png" alt="">
+                  </div>
+                  <div class="col-md-8">
+                    <h4>Motion Graphics</h4>
+                    <p>Motion graphics are pieces of animation or digital footage which create the illusion of motion or rotation, and are usually combined with audio for use in multimedia projects.</p>
+                    <h5 class="text-info">Price: 20$</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>
