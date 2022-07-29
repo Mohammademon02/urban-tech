@@ -16,7 +16,6 @@
 
     <header>
       <!-- navbar start here  -->
-
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container py-2">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,12 +49,10 @@
           </div>
         </div>
       </nav>
-
-      <!-- navbar start here  -->
+      <!-- navbar end here  -->
 
 
       <!-- slider start hera -->
-
       <section class="container">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
           <div class="carousel-indicators">
@@ -69,7 +66,7 @@
                 <div class="position-absolute bg-dark opacity-75 top-0 w-100 h-100 "></div>
                 <img src="images/cover/cover-1.png" class=" img-fluid" alt="...">
                 <div class="carousel-caption position-absolute top-0 w-50 h-100 m-auto d-flex flex-column    align-items-center justify-content-center ">
-                  <h2 class="fw-bold fs-1">Get Started Digital Learning.</h2>
+                  <h2 class="fw-semibold fs-1 ">Get Started Digital Learning.</h2>
                   <p>Some representative placeholder content for the first slide.</p>
                   <a class="btn btn-blue text-white px-3 fw-semibold" href="">Get Started</a>
                 </div>
@@ -108,15 +105,15 @@
           </button>
         </div>
       </section>
-
       <!-- slider end hera -->
     </header>
     
+
     <main>
       <!-- courses section start here -->
       <section class="course-section py-5">
         <h2 class="fw-bold text-center">Discover Our Popular Courses</h2>
-        <p class="text-center">Learn with us over 20 courses</p>
+        <p class="text-center text-muted">Learn with us over 3500+ online courses</p>
         <div class="container mt-5">
           <div class="row g-3">
             <div class="col-lg-6 col-md-12 col-sm-12 col-12 ">
@@ -209,7 +206,7 @@
           <a class="btn btn-blue text-white fw-bold" href="">View All Courses</a>
         </div>
       </section>
-      <!-- courses section start here -->
+      <!-- courses section end here -->
 
 
       <!-- explore section start here -->
@@ -222,8 +219,10 @@
             <div class="col-lg-7 col-md-6 px-3 bg-explore d-flex align-items-center justify-content-center">
               <div class="">
                 <h2 class="fw-bold fs-1 py-2">Explore The Urban Tech</h2>
-                <p>Technology is an integral part of our everyday life. As frustrating as it often can be, the world of technology plays a vital role in connecting us to opportunities for social support, news and information, government services, banking, health resources, shopping, books, entertainment, and learning tools. Despite such physical, economic, and psychological limitations that may come with the use of technology, there is a distinct advantage for all of us to actively explore and use digital tools.</p>
-                <p class=" py-3">Keeping up with the changing world of technology can be a challenge. Is there a specific area of technology that you would like to better understand? If so, what?</p>
+                <p>Technology is an integral part of our everyday life. As frustrating as it often can be, the world of technology <span class="d-none d-lg-block"> plays a vital role in connecting us to opportunities for social support, news and information, government services, banking, health resources.
+                  <br>
+                  <br>
+                  Keeping up with the changing world of technology can be a challenge. Is there a specific area of technology that you would like to better understand? If so, what?</p></span>
               <div class="row py-4">
                 <div class="col-md-4 col-sm-6 col-6">
                   <h2 class="fw-bold fs-1">3.5k+</h2 class="fw-bold fs-1">
@@ -257,10 +256,10 @@
               <div class="row">
                 <div class="col-md-6 text-center text-md-start px-5 py-md-5">
                   <h2 class="fw-bold text-white fs-1">Ready to join?</h2>
-                  <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, eius?</p>
+                  <p class="text-white">Start your dream today. Conquer the world.</p>
                 </div>
                 <div class="col-md-6 text-center text-md-end px-5 my-auto">
-                  <a class="btn btn-light text-primary fw-bold" href="">Register Now</a>
+                  <button class="btn btn-light text-primary fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</button>
                 </div>
               </div>
             </div>
@@ -269,6 +268,48 @@
       </section>
       <!-- register section end here -->
 
+      <!-- modal start here -->
+      <section>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Register</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="exampleInputName1" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="exampleInputName1">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputNumber1" class="form-label">Phone Number</label>
+                    <input type="tel" class="form-control" placeholder="+880" id="exampleInputNumber1">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-blue">Login</button>
+                <button type="button" class="btn btn-blue">Register</button>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </section>
+      <!-- modal end here -->
 
       <!-- successfull students section start here -->
       <section>
@@ -278,8 +319,7 @@
                 <h2 class="fw-bold fs-1">Meet Our
                   <br>
                   Successfull Students</h2>
-                <p class="text-muted">It is a long established fact that a reader will be distracted by the 
-                  readable content of a page when looking at its layout.</p>
+                <p class="text-muted">Being smart is an asset for any student, but the best students aren’t necessarily the most brilliant.</p>
               </div>
            </div>
             <div class="row mt-3 g-4">
@@ -334,7 +374,7 @@
           <div class="row ">
             <div class="col-md-6 mx-auto">
               <h2 class="fw-bold fs-1 text-center">Some Students Feedback</h2>
-              <p class="text-muted text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+              <p class="text-muted text-center">Being smart is an asset for any student, but the best students aren’t necessarily the most brilliant.</p>
             </div>
           </div>
           <div class="row g-3 mt-3">
@@ -350,10 +390,7 @@
                     <i class="fa-regular fa-star"></i>
                   </div>
                 </div>
-                <p class="text-muted pt-3">There are many variations of passages of Lorem Ipsum available, but 
-                  the majority have suffered alteration in some form, by injected 
-                  humour, or randomised words which don't look even slightly 
-                  believable. If you are going to use a passage of Lorem.</p>
+                <p class="text-muted pt-3">First I want to say that it is very usefull very good user interface. And I like the most thing in it is its ui/ux for mobile application And all thind for subject to my business.It deals with its specialization in web designing.</p>
                 <div class=" g-3 d-flex align-items-center ">
                   <div class=" pe-3">
                     <img class="img-fluid" src="images/student/student-5.png" alt="">
@@ -377,10 +414,7 @@
                     <i class="fa-regular fa-star"></i>
                   </div>
                 </div>
-                <p class="text-muted pt-3">There are many variations of passages of Lorem Ipsum available, but 
-                  the majority have suffered alteration in some form, by injected 
-                  humour, or randomised words which don't look even slightly 
-                  believable. If you are going to use a passage of Lorem.</p>
+                <p class="text-muted pt-3">I had a lot of fun in this course. I learnt some extra bits of information related to graphic design and I think it's a great start for beginners as well as good practice for intermediate and experts! As a suggestion course.</p>
                 <div class=" g-3 d-flex align-items-center ">
                   <div class=" pe-3">
                     <img class="img-fluid" src="images/student/student-6.png" alt="">
